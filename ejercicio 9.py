@@ -1,0 +1,5 @@
+print("EScribe la fecha de tu nacimiento ")
+fecha = input("con el siguiente formato dd/mm/aaaa: ")
+print('Día', fecha[:2])
+print('Mes', fecha[3:5])
+print('Año', fecha[6:])
